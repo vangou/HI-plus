@@ -1,1 +1,0 @@
-2024-01-08 04:42:28 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:680 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge response'}

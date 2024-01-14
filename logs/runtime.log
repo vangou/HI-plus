@@ -1,27 +1,3 @@
-2024-01-14 12:28:28 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-14 12:28:40 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-01-14 12:28:43 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2024-01-14 12:28:47 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2024-01-14 12:28:47 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on each image containing a big cat'}
-2024-01-14 12:28:48 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like big cat.', "This is a picture that don't look like big cat."], 'prompt': 'Please click on each image containing a big cat', 'timit': '1.076s'}
-2024-01-14 12:29:06 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-14 12:29:11 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on each image containing a big cat'}
-2024-01-14 12:29:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like big cat.', "This is a picture that don't look like big cat."], 'prompt': 'Please click on each image containing a big cat', 'timit': '0.782s'}
-2024-01-14 12:29:32 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-14 12:29:41 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on each image containing a big cat'}
-2024-01-14 12:29:42 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like big cat.', "This is a picture that don't look like big cat."], 'prompt': 'Please click on each image containing a big cat', 'timit': '0.816s'}
-2024-01-14 12:30:05 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-14 12:30:11 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on each image containing a big cat'}
-2024-01-14 12:30:12 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like big cat.', "This is a picture that don't look like big cat."], 'prompt': 'Please click on each image containing a big cat', 'timit': '0.778s'}
-2024-01-14 12:30:35 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2024-01-14 12:30:40 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an animal with dark vertical stripes'}
-2024-01-14 12:30:41 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like animal with dark vertical stripes.', "This is a picture that don't look like animal with dark vertical stripes."], 'prompt': 'Please click each image containing an animal with dark vertical stripes', 'timit': '0.699s'}
-2024-01-14 12:30:55 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-14 12:31:01 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
-2024-01-14 12:31:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click eaсh image containing an animal with dark vertical stripes'}
-2024-01-14 12:31:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like animal with dark vertical stripes.', "This is a picture that don't look like animal with dark vertical stripes."], 'prompt': 'Please click eaсh image containing an animal with dark vertical stripes', 'timit': '0.713s'}
-2024-01-14 12:31:10 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2024-01-14 12:31:13 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
-2024-01-14 12:31:24 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/HI-plus/HI-plus/epic/user_data_dir/epic-games@game/ctx_cookie.json')}
-2024-01-14 12:31:25 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Sail Forth', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
-2024-01-14 12:31:25 | SUCCESS    | __main__:claim_epic_games:108 | Pass claim task - {'reason': 'All free games are in my library', 'stage': 'claim-games'}
+2024-01-14 12:49:58 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-14 12:50:04 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Sail Forth', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
+2024-01-14 12:50:04 | SUCCESS    | __main__:prelude_with_context:85 | Pass claim task - {'reason': 'All free games are in my library', 'stage': 'context-prelude'}

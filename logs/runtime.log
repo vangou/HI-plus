@@ -1,5 +1,5 @@
-2024-01-17 12:29:44 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-17 12:29:53 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-17 12:29:53 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Sail Forth', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
-2024-01-17 12:29:58 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
-2024-01-17 12:30:14 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-01-17 12:49:55 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-17 12:50:03 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-17 12:50:04 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Sail Forth', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
+2024-01-17 12:50:10 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/sail-forth-51847e'}
+2024-01-17 12:50:25 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}

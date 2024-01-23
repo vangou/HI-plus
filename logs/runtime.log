@@ -1,5 +1,5 @@
-2024-01-22 12:49:45 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-22 12:49:50 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-22 12:49:50 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'LOVE', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
-2024-01-22 12:49:55 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
-2024-01-22 12:50:09 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-01-23 12:29:43 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-23 12:29:51 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-23 12:29:51 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'LOVE', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
+2024-01-23 12:29:56 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/love-65c4d0'}
+2024-01-23 12:30:11 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}

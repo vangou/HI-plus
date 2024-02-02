@@ -1,11 +1,5 @@
-2024-02-02 12:28:47 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-02-02 12:28:55 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-02-02 12:28:55 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doors - Paradox', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-02 12:29:04 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-02 12:29:13 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-02-02 12:29:16 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-02-02 12:29:21 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that appears only once.'}
-2024-02-02 12:29:24 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_unique_object:333 | handle task - {'select_model': 'appears_only_once_2309_yolov8s-seg.onnx', 'trident': 'find_unique_object', 'ash': 'please click on the object that appears only once default'}
-2024-02-02 12:29:26 | DEBUG    | hcaptcha_challenger.agents.playwright.control:lookup_unique_object:333 | handle task - {'select_model': 'appears_only_once_2309_yolov8s-seg.onnx', 'trident': 'find_unique_object', 'ash': 'please click on the object that appears only once default'}
-2024-02-02 12:29:28 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-02-02 12:29:32 | SUCCESS    | epic_games.agent:claim_weekly_games:339 | claim_weekly_games - {'action': 'success', 'url': 'https://store.epicgames.com/en-US/cart/success'}
+2024-02-02 12:49:20 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-02-02 12:49:24 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-02-02 12:49:25 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doors - Paradox', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-02 12:49:29 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-02 12:49:44 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}

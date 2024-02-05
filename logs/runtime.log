@@ -1,5 +1,5 @@
-2024-02-05 12:29:34 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-02-05 12:29:40 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-02-05 12:29:40 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doors - Paradox', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-05 12:29:45 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
-2024-02-05 12:30:00 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-02-05 12:49:47 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-02-05 12:49:54 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-02-05 12:49:54 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Doors - Paradox', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-05 12:50:00 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/doors-paradox-5896c7'}
+2024-02-05 12:50:15 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}

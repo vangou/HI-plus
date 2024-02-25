@@ -1,5 +1,5 @@
-2024-02-24 12:50:40 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-02-24 12:50:44 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-02-24 12:50:45 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Super Meat Boy Forever', 'url': 'https://store.epicgames.com/en-US/p/super-meat-boy-forever'}
-2024-02-24 12:50:50 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/super-meat-boy-forever'}
-2024-02-24 12:51:05 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-02-25 12:28:02 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-02-25 12:28:09 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-02-25 12:28:09 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Super Meat Boy Forever', 'url': 'https://store.epicgames.com/en-US/p/super-meat-boy-forever'}
+2024-02-25 12:28:14 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/super-meat-boy-forever'}
+2024-02-25 12:28:29 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
